@@ -26,10 +26,20 @@ To use the Nepali Sentiment Analysis model:
 
 5. Evaluate the model's performance using suitable metrics such as accuracy, precision, recall, or F1-score.
 
+6. To try the model practically, open `nepali-sentiment-model-tryout.ipynb` in Jupyter Notebook.
+
+7. In the `model-tryout.ipynb` file, provide the string you want to analyze for sentiment.
+
+8. Run the cells in `model-tryout.ipynb` to obtain the predicted sentiment label for the provided string.
+
+9. Optionally, you can also modify the code to analyze multiple strings or perform a batch analysis.
+
 ## Repository Structure
 
-- `model_training.ipynb`: Jupyter Notebook containing the code for training the Nepali Sentiment Analysis model.
+- `model-training.ipynb`: Jupyter Notebook containing the code for training the Nepali Sentiment Analysis model.
+- `model-tryout.ipnyb` : Hupyter Notebook containing the code to tryout the Model
 - `inference.ipynb`: Jupyter Notebook demonstrating how to perform inference using the trained model.
+- `nepali-sentiment-model-tryout.ipynb`: Jupyter Notebook for trying the model practically with a string input.
 - `requirements.txt`: List of required dependencies for running the code.
 - `README.md`: This readme file provides an overview of the repository.
 
@@ -49,7 +59,6 @@ During the training process, the model achieved the following accuracies for dif
 ![image](https://github.com/Sibindra/nepali-sentiment-analysis-model/assets/59206903/7fbb2573-93f4-4139-aeba-e8afb9e4e226)
 
 ![image](https://github.com/Sibindra/nepali-sentiment-analysis-model/assets/59206903/19bc55b3-4fab-4e73-a535-b5c6712f3029)
-
 
 
 To improve the accuracy of the model, you can consider making the following changes:
